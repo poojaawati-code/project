@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin:0
+  }
+ 
+.icon-bar {
+  width: 150px;
+  height: 600px;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  float:left;
+  background-color: #f1f1f1;
+}
+
+
+.icon-bar a {
+  display: block;
+  padding: 25px;
+  text-align: center;
+  
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+.icon-bar i {
+  display: block;
+}
+
+
+.active {
+  background-color: #d2d4fe;
+}
+
+div.content {
+  margin: 60px;
+  width:200px ;
+  height: 600px;
+  display: flex;
+ margin-left: 50px;
+   padding-top: 45px;
+ padding-right: 500px;
+  flex-direction: column;
+  float:right;
+}
+.content i{
+  display: inline;
+  padding-top: 45px;
+  padding-left: 50px;
+}
+
+.top-left{
+  display: flex;
+  background-color:#fff;
+  flex-direction: column;
+  float:left;
+
+}
+.pic{
+  padding-top: 30px;
+  padding-left: 50px;
+  margin-left: 40px;
+}
+input{
+  width: 200px;
+}
+
+</style>
+<body>
+ 
+
+<div class="icon-bar">
+  <div class="top-left">
+    <a  href="#"><i class="fa fa-bullseye"></i></a> 
+   </div>
+ 
+  <a href=""><i class="	fa fa-user-o"></i>Students</a> 
+  <a class="active" href="project1.html"><i class="	fa fa-laptop"></i>Lesson Plan</a> 
+  <a href=""><i class="fa fa-gear"></i>Setting</a>
+ 
+
+</div> 
+<div class="content">
+  
+  <i class="fa fa-toggle-left">Vedio</i>
+ <div class="pic">
+  <input type="url" id="myFile" name="filename" placeholder="URL..type">
+ 
+   <h4 style="text-align: center;">or</h4>
+   <input type="file" id="myFile" name="filename" placeholder="URL..type">
+</div>
+</div> 
+  
+</body>
+</html> 
